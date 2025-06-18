@@ -531,7 +531,6 @@ const Musicians = () => {
                         fontSize: "14px",
                         color: "#1d1d1d",
                         fontWeight: 400,
-
                       }}
                     >
                       <img
@@ -563,8 +562,6 @@ const Musicians = () => {
                         fontSize: "14px",
                         color: "#1d1d1d",
                         fontWeight: 400,
-                        fontFamily: "poppins",
-
                       }}
                     >
                       <img
@@ -574,7 +571,6 @@ const Musicians = () => {
                           marginRight: "16px",
                           width: "20px",
                           height: "20px",
-
                         }}
                       />
                       Block Profile
@@ -593,11 +589,10 @@ const Musicians = () => {
                       sx={{
                         position: "relative",
                         paddingRight: "40px",
+                        fontFamily: "poppins",
                         fontSize: "14px",
                         color: "#1d1d1d",
                         fontWeight: 400,
-                        fontFamily: "poppins",
-
                       }}
                     >
                       <img

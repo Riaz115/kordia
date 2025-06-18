@@ -45,7 +45,6 @@ const FeaturedSection = () => {
   const cardData = [
     {
       id: 1,
-
       image: feimg1,
       category: "Instrument",
       title: "Graphic Design Masterclass: Tools and Techniques ",
@@ -54,7 +53,6 @@ const FeaturedSection = () => {
       duration: "6 Hours",
       level: "Beginner Friendly",
       author: "John Doe",
-      image: eventorganizer1,
       originalPrice: "$199",
       discountedPrice: "$99",
     },
@@ -68,7 +66,6 @@ const FeaturedSection = () => {
       duration: "10 Hours",
       level: "Intermediate",
       author: "Jane Smith",
-      image: eventorganizer2,
       originalPrice: "$299",
       discountedPrice: "$149",
     },
@@ -82,7 +79,6 @@ const FeaturedSection = () => {
       duration: "10 Hours",
       level: "Intermediate",
       author: "Jane Smith",
-      image: eventorganizer1,
       originalPrice: "$299",
       discountedPrice: "$149",
     },
@@ -96,7 +92,6 @@ const FeaturedSection = () => {
       duration: "10 Hours",
       level: "Intermediate",
       author: "Jane Smith",
-      image: eventorganizer2,
       originalPrice: "$299",
       discountedPrice: "$149",
     },

@@ -23,7 +23,7 @@ import sale from "/assets/images/sale.png";
 import fimg3 from "/assets/images/feimg3.png";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import CourseCard from "../Components/CourseCard";
-import BundleCard from "../components/BundleCard";
+import BundleCard from "../Components/BundleCard";
 import avtarimg from "/assets/images/eventorganizer2.png";
 
 const AcadamyPage = () => {
