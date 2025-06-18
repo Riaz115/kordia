@@ -1,0 +1,100 @@
+.font-bebas {
+  font-family: "Bebas Neue", sans-serif;
+}
+
+.font-poppins {
+  font-family: "Poppins", sans-serif;
+}
+
+.font-syne {
+  font-family: "Syne", serif;
+}
+.dropdown {
+  cursor: pointer;
+}
+/* .test{
+  border: 2px solid red!important;
+} */
+.dropdown-item {
+  padding: 5px 10px;
+}
+.dropdown-item:hover {
+  background-color: #d6e3ec;
+  color: #0a3558;
+  border-radius: 5px;
+}
+
+.calendar-toolbar {
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+}
+
+.view-buttons-container {
+  display: flex;
+  border-radius: 10px; /* Border radius of the container */
+  overflow: hidden; /* Ensure the rounded corners are respected */
+  border: 1px solid #ccc; /* Border color for the container */
+}
+
+.view-btn {
+  background-color: transparent;
+  border: none;
+  padding: 7px 20px; /* Adjust padding for better spacing */
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 14px;
+  transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+.view-btn:not(:last-child) {
+  border-right: 1px solid #ccc; /* Border between buttons */
+}
+
+.view-btn.active {
+  background-color: orange; /* Active button background */
+  color: white;
+}
+
+.view-btn:hover {
+  background-color: orange; /* Hover effect for the buttons */
+}
+
+
+.test {
+  border: 3px solid red !important;
+}
+
+/* Responsive Layout */
+@media (max-width: 768px) {
+  .calendar-toolbar {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .left-buttons {
+    justify-content: center;
+    gap: 8px;
+  }
+}
+
+/* Remove focus outline for the Accordion.Header */
+.accordion-button:not(.collapsed) {
+  box-shadow: none;
+  color: inherit; /* Ensure text color is unchanged */
+  border-radius: 10px;
+}
+
+/* Customize the collapsed state as well (optional) */
+.accordion-button {
+  border: none;
+  outline: none;
+  color: inherit;
+}
+
+/* Remove hover/focus styles */
+.accordion-button:focus {
+  box-shadow: none;
+  outline: none;
+}
